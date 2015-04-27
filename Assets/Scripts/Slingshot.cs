@@ -3,13 +3,11 @@ using System.Collections;
 
 public class Slingshot : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	void OnMouseEnter() {
+		print ("Slingshot:OnMouseEnter");
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void OnMouseExit() {
+		print ("Slingshot:OnMouseExit");
 	}
 }
